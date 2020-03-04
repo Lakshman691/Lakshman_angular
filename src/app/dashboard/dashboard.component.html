@@ -1,0 +1,9 @@
+<div>
+  <br />
+  <br />
+  <a *ngFor="let mcq of mcqList" routerLink="/question/{{mcq.qNo}}">
+    <div class="length">
+      <h2 class="module">{{mcq.qNo}}. {{mcq.qus}}</h2>
+    </div>
+  </a>
+</div>

@@ -1,0 +1,19 @@
+/* DashboardComponent's private CSS styles */
+
+a {
+  text-decoration: none;
+}
+.module {
+  padding: 17px;
+  color: #eee;
+  background-color: #3f525c;
+  border-radius: 50px;
+}
+.module:hover {
+  background-color: #eee;
+  cursor: pointer;
+  color: #607d8b;
+}
+.length {
+  margin-right: 500px;
+}

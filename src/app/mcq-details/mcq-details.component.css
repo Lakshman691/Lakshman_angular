@@ -1,0 +1,23 @@
+a {
+  padding: 12px 12px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: rgb(38, 68, 88);
+  border-radius: 10px;
+  color: #ffffff;
+}
+a:hover {
+  background-color: rgb(165, 211, 238);
+  cursor: pointer;
+  color: #000000;
+}
+.center {
+  text-align: center;
+}
+.wrong {
+  color: red;
+}
+.correct {
+  color: green;
+}

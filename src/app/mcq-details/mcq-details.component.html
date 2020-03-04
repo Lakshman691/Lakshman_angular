@@ -1,0 +1,27 @@
+<div *ngIf="mcq">
+  <br />
+  <br />
+  <h2>{{mcq.qNo}}.{{mcq.qus}}</h2>
+  <input
+    type="radio"
+    name="a"
+    (click)="onSelect(mcq,mcq.opt1)"
+  />{{mcq.opt1}}<br />
+  <input
+    type="radio"
+    name="a"
+    (click)="onSelect(mcq,mcq.opt2)"
+  />{{mcq.opt2}}<br />
+  <input
+    type="radio"
+    name="a"
+    (click)="onSelect(mcq,mcq.opt3)"
+  />{{mcq.opt3}}<br />
+  <input type="radio" name="a" (click)="onSelect(mcq,mcq.opt4)" />{{mcq.opt4}}
+  <br />
+  <h1 class="{{option}}">{{ mcq.title}}</h1>
+  <br />
+  <div class="center">
+    <a routerLink="/dashboard">BACK</a>
+  </div>
+</div>
